@@ -1,0 +1,18 @@
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+  font-size: 50px;
+
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+    color: #939393;
+}
+.list-inline > li > a{
+    color: #939393;
+}
+.list-inline > li > a:hover{
+  
+    color: #2e990b;
+}
